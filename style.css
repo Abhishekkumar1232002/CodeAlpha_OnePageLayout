@@ -1,0 +1,129 @@
+
+* {
+    margin: 0;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+    background-image: url("orangebg.webp");
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid black; */
+    padding: 15px;
+    justify-content: space-between;
+    /* background-color: rgba(205, 202, 202, 0.628); */
+}
+
+.logo img {
+    width: 36px;
+    border-radius: 50%;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    /* background-color: black; */
+    height: 40px;
+    align-items: center;
+    margin-right: 50px;
+
+}
+
+li {
+    list-style: none;
+    margin: 0px 40px;
+
+
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+a:hover {
+    color: blueviolet;
+}
+
+.main {
+    /* border: 1px solid red; */
+    /* height: 70vh; */
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    /* border: 1px solid green; */
+}
+
+.left h2 {
+    font-size: 50px;
+    margin: 25px;
+    margin-top: 73px;
+    margin-left: 15px;
+    text-decoration: underline;
+
+}
+
+.left p {
+    margin: 20px;
+    line-height: 2rem;
+}
+
+.left button {
+    margin: 40px 150px;
+    padding: 15px;
+    margin-left: 30px;
+    width: 10em;
+    border-radius: 1rem;
+}
+
+.left button:hover {
+    box-shadow: 0 0 12px black;
+    background: bottom;
+    border-radius: 1rem;
+}
+
+.img {
+    overflow: hidden;
+    width: 50vw;
+    /* border: 1px solid brown; */
+}
+
+.img img {
+    width: 50vw;
+    height: 70vh;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+.bottom {
+    height: 7vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 69px;
+}
